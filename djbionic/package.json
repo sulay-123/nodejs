@@ -1,0 +1,46 @@
+{
+  "name": "dj-bionico-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=development node server.js",
+    "start:dev": "NODE_ENV=development nodemon server.js",
+    "start:prod": "NODE_ENV=production pm2 start server.js --name dj-bionico",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/dj-bionico/dj-bionico-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/dj-bionico/dj-bionico-nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/dj-bionico/dj-bionico-nodejs#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.771.0",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.4-beta.0",
+    "express-useragent": "^1.0.15",
+    "firebase-admin": "^9.3.0",
+    "generate-password": "^1.5.1",
+    "helmet": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.4.11",
+    "randexp": "^0.5.3",
+    "swagger-node-express": "^2.1.3"
+  }
+}

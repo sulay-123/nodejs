@@ -1,0 +1,7 @@
+db || rest apis
+
+first_name || fname
+last_name || lname
+email || email
+password || pass
+user_id || userid
